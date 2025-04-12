@@ -1,6 +1,6 @@
 import { supabase } from './supabaseClient';
 import { User, UserProfile, StudySession, SavedQuestion } from '../types/userTypes';
-import { SUPABASE_CONFIG } from '../../cloudfare';
+import { SUPABASE_CONFIG } from '../cloudfare';
 
 /**
  * Authentication service to handle all user-related operations with Supabase
